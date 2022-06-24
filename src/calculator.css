@@ -1,0 +1,64 @@
+.realbg {
+    height: auto;
+    width: 100%;
+}
+
+.textcalc {
+    margin-top: 80px;
+}
+
+.realtable {
+    border: 5px solid rgba(0, 0, 0, 0.62) !important;
+
+
+}
+
+
+
+
+.inputall {
+    width: 100%;
+    font-size: 26px;
+    border: 1px solid black;
+    height: 60px;
+    background: rgb(238, 174, 202);
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+}
+
+.btnall {
+    width: 90%;
+    border-color: blue;
+    height: 60px;
+    border-radius: 5px;
+    background-color: rgba(71, 203, 71, 0.69);
+
+    font-size: 26px;
+}
+
+
+.btnall:active {
+    animation: buttonEffect 0.2s linear;
+}
+
+@keyframes buttonEffect {
+    50% {
+        transform: scale(1.1)
+    }
+
+    100% {
+        transform: scale(1)
+    }
+}
+
+
+
+@media(max-width: 494px) {
+    .btnall {
+        font-size: 20px;
+    }
+
+    .inputall {
+        font-size: 20px;
+    }
+
+}
